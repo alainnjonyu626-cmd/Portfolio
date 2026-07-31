@@ -1,0 +1,68 @@
+/*main section of the contact page*/
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+main h1 {
+  font-family: 'Segoe UI', 'Inter', system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #241b2f;
+  margin: 0 0 2rem;
+  letter-spacing: -0.02em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #241b2f;
+  margin-bottom: 0.4rem;
+}
+
+input,
+textarea {
+  font-family: 'Segoe UI', 'Inter', system-ui, sans-serif;
+  font-size: 1rem;
+  color: #3a4552;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #d8dde3;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #241b2f;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+button {
+  align-self: flex-start;
+  background-color: #241b2f;
+  color: #f6f3f9;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  padding: 0.8rem 1.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #3a2b47;
+}

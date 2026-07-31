@@ -1,0 +1,50 @@
+/*main section of the portfolio page*/
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+main h1 {
+  font-family: 'Segoe UI', 'Inter', system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #241b2f;
+  margin: 0 0 2rem;
+  letter-spacing: -0.02em;
+}
+
+article {
+  margin-bottom: 3rem;
+ 
+}
+
+article h2 {
+  font-family: 'Segoe UI', 'Inter', system-ui, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #241b2f;
+  margin: 0 0 1rem;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+  margin-bottom: 1rem;
+   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+article p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #3a4552;
+  margin: 0;
+}
+
+article img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(36, 27, 47, 0.15);
+}

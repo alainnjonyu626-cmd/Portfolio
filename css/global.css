@@ -1,0 +1,81 @@
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*general colors*/
+:root {
+  --color-bg-dark: #241b2f;
+  --color-text-light: #f6f3f9;
+  --color-accent-muted: #b8a3c9;
+  --color-text-body: #3a4552;
+  --color-pill-bg: #eef1f5;
+}
+/*header style*/
+header {
+  padding: 1.5rem 2rem;
+  text-align: center;
+  background-color: #241b2f;
+  color: #f6f3f9;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Segoe UI', 'Inter', system-ui, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  font-weight: 400;
+ color: #b8a3c9;
+  letter-spacing: 0.03em;
+}
+/*nav style*/
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+nav a {
+  text-decoration: none;
+ color: #241b2f;
+  font-family: 'Segoe UI', 'Inter', system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+nav a:hover {
+  color: #4a6fa5;
+}
+/*footer style*/
+footer {
+ background-color: #241b2f;
+  color: #f6f3f9;
+  text-align: center;
+  padding: 1.5rem 2rem;
+}
+
+footer h2 {
+  font-family: 'Segoe UI', 'Inter', system-ui, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+  letter-spacing: -0.01em;
+}
+
+footer p {
+  font-size: 0.95rem;
+color: #b8a3c9;
+  margin: 0.3rem 0;
+  letter-spacing: 0.02em;
+}
